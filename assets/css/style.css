@@ -1,0 +1,31 @@
+body{
+  background: rgb(30, 255, 0);
+  text-align: center;
+}
+body .container{
+  display: inline-flex;
+}
+
+.container{
+  margin: 0 auto;
+  width: 520px;
+  height: 520px;
+}
+.screen {
+  width: 500px;
+  height: 500px;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+.screen div {
+  width: 50px;
+  height: 50px;
+}
+.snake {
+  background-color: brown;
+}
+.apple {
+  background-color: red;
+}
